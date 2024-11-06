@@ -1,4 +1,6 @@
 import { Metadata } from "next";
+import Link from "next/link";
+import Header from "./Header";
 export const metadata: Metadata = {
   title: {
     default: "Next.js Tutorial - Suman",
@@ -15,15 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header
-          style={{
-            backgroundColor: "lightblue",
-            padding: "1rem",
-            textAlign: "center",
-          }}
-        >
-          <p>Header</p>
-        </header>
+        <Header />
 
         {children}
 
