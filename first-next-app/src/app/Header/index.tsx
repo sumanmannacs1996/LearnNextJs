@@ -10,6 +10,8 @@ const navLinks = [
   { name: "Forgot Password", path: "/forgot-password" },
   { name: "Product", path: "/product" },
   { name: "Docs", path: "/docs" },
+  { name: "Complex Dashboard", path: "/complex-dashboard" },
+  { name: "Photo Feed", path: "/photo-feed" },
 ];
 
 export default function () {
